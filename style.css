@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #3d3d3d;
+    background-image: url(images/37.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+.container{
+    width: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    overflow: hidden;
+
+}
+
+#blitzrp img{
+    height: 50px;
+
+}
+
+
+#whatis{
+    float: left;
+    max-width: 50%;
+}
+
+#navbar{
+    color: #fff;
+    float: right;
+    margin: auto;
+    border: solid 2px black;
+    padding: 10px 10px;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+
+#navbar li{
+    display: inline;
+
+}
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border: 2px black solid;
+}
+
+@media screen and (max-width: 800px){
+    .column{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+#gallstart{
+    text-align: center;
+}
+
+#gallend{
+    text-align: center;
+}
+
+
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    overflow: hidden;
+    width: 50%;
+    clear: both;
+}
+
+.form input {
+    width: 100%;
+    clear: both;
+    background-color: #3d3d3d;
+    color: #fff;
+}
+
+.form textarea {
+    width: 100%;
+    clear: both;
+    background-color: #3d3d3d;
+    color: #fff;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+
+#footer{
+    text-align:center ;
+    position: relative;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#banaside{
+    float: right;
+    text-align: center;
+    max-width: 50%;
+    
+}
+
+#aboutusleft{
+    max-width: 50%;
+    background-color: #3d3d3d;
+}
